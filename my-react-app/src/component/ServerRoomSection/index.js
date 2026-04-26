@@ -32,7 +32,7 @@ const ServerRoomSection = () => {
 
             <div className="status-box">
               <span>EFFICIENCY STATUS: OPTIMAL</span>
-              <div className="dot"></div>
+              <div className='dot'></div>
             </div>
           </div>
         </div>

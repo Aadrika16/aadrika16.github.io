@@ -2,7 +2,7 @@
 
 .pitstop-section {
   background-color: #0b0b0b;
-  padding: 100px 8%;
+  padding: 4px 3%;
   color: white;
 }
 
@@ -45,6 +45,8 @@
   padding: 40px 30px;
   min-height: 350px;
   position: relative;
+  display: flex;
+  flex-direction: column;
   transition: 0.3s ease;
   border: 1px solid rgba(255,255,255,0.05);
 }
@@ -57,6 +59,7 @@
 .pit-icon {
   font-size: 30px;
   color: #9cff93;
+  align-self: flex-end;
   margin-bottom: 30px;
 }
 
@@ -67,7 +70,8 @@
 }
 
 .pit-card h4 {
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: white;
 }
@@ -93,10 +97,20 @@ span{
     font-weight: 700;
     font-style: Bold;
     font-size: 48px;
+    line-height: 1.4;
     line-height: 100%;
     letter-spacing: 0px;
     vertical-align: middle;
     text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.pitstop-header h2 span {
+  color: #c8ff85;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: middle;
 }
 /* Tablet */
 @media screen and (max-width: 992px) {

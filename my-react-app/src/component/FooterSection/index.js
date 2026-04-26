@@ -1,4 +1,8 @@
-
+import {
+  FiShare2,
+  FiGlobe,
+  FiSettings
+} from 'react-icons/fi'
 import './index.css'
 
 const FooterSection = () => {
@@ -7,8 +11,8 @@ const FooterSection = () => {
       {/* CTA Section */}
       <section className="cta-section">
         <h1 className="cta-title">
-          READY TO <span>OUTPACE</span> THE <br />
-          COMPETITION?
+          READY TO <span className='cta-span'>OUTPACE</span>  <br />
+           THE COMPETITION?
         </h1>
 
         <button className="cta-btn">OUR SERVICES</button>
@@ -21,7 +25,7 @@ const FooterSection = () => {
           <div className="footer-column">
             <h2 className="footer-logo">GT APEX</h2>
             <p>
-              GT Apex is a 360 Digital Marketing Agency delivering end-to-end
+              GT Apex is a 360<sup>°</sup> Digital Marketing Agency delivering end-to-end
               growth solutions.
             </p>
             <p>
@@ -38,7 +42,7 @@ const FooterSection = () => {
           <div className="footer-column">
             <h3>Expertise</h3>
             <ul>
-              <li>360 Marketing</li>
+              <li>360<sup>°</sup> Marketing</li>
               <li>Strategy</li>
               <li>Scalability</li>
               <li>Sustainability</li>
@@ -67,19 +71,21 @@ const FooterSection = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="footer-bottom">
-          <p>© 2024 GT APEX. ENGINEERED FOR PRECISION.</p>
-
+        <div className="footer-bottom"> 
+          <div className='first-text-con'>
+            <span className='first-bottom-text'>GT APEX</span>
+            <p>© 2024 GT APEX. ENGINEERED FOR PRECISION.</p>
+          </div>
           <div className="footer-links">
-            <span>PRIVACY POLICY</span>
-            <span>TERMS OF SERVICE</span>
-            <span>CONTACT</span>
+            <span className='footer-middle-text'>PRIVACY POLICY</span>
+            <span className='footer-middle-text'>TERMS OF SERVICE</span>
+            <span className='footer-middle-text'>CONTACT</span>
           </div>
 
           <div className="social-icons">
-            <span>🔗</span>
-            <span>🌐</span>
-            <span>⚙️</span>
+            <FiShare2  className='each-icon'/> 
+            <FiGlobe className='each-icon'/> 
+            <FiSettings className='each-icon'/>
           </div>
         </div>
       </footer>

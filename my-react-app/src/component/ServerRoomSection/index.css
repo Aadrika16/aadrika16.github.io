@@ -2,7 +2,7 @@
 
 .engine-section {
   background-color: #0b0b0b;
-  padding: 80px 8%;
+  padding: 10px 8%;
 }
 
 /* Layout */
@@ -109,7 +109,7 @@
 .status-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   margin-top: auto;
 }
 
@@ -117,13 +117,14 @@
   color: #9CFF93;
   font-size: 12px;
   letter-spacing: 2px;
+  white-space: nowrap; /* 👈 keeps ONE line */
 }
-
 .dot {
   width: 10px;
   height: 10px;
   background: #9CFF93;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 h3{
     font-family: Space Grotesk;

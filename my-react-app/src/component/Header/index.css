@@ -1,23 +1,20 @@
-
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 4%;
-  min-height:20vh;
+  min-height: 90px;
   background-color: #0e0e0e;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Logo Container */
+/* Logo */
 .logo {
   display: flex;
   align-items: center;
-  height: 100%;
 }
 
-/* Logo Image */
 .logo-icon {
   width: 220px;
   height: auto;
@@ -26,17 +23,17 @@
   display: block;
 }
 
-/* Nav Links */
+/* Navigation Links */
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 30px;
+  gap: 35px;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 
-/* Nav Link Style */
+/* Nav Link */
 .nav-links li a {
   display: flex;
   align-items: center;
@@ -44,86 +41,124 @@
   text-decoration: none;
   color: white;
   font-weight: 500;
-  transition: 0.3s ease;
   position: relative;
+  transition: color 0.3s ease;
 }
 
-/* Hover Text Color */
-.nav-links li a:hover {
-  color: #2e7d32;
+/* Default White */
+.nav-links li a {
+  color: white;
 }
 
-/* Underline Hover */
-.nav-links li a:hover::after {
+/* Underline Hidden by Default */
+.nav-links li a::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -6px;
-  width: 100%;
+  width: 0;
   height: 2px;
   background-color: #2e7d32;
+  transition: width 0.3s ease;
 }
 
-/* Icons */
+/* Hover Effect */
+.nav-links li a:hover {
+  color: #2e7d32;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+/* Active Link */
+.active-link {
+  color: #2e7d32 !important;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+/* Desktop */
 .nav-icon {
-  font-size: 18px;
+  display: none;
 }
 
-/* Contact Button */
-.nav-btn {
-  display: flex;
-  align-items: center;
-  background: linear-gradient(107.08deg, #9cff93 0%, #00fc40 100%);
-  color: #0e0e0e;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: 0.3s ease;
-  font-weight: 600;
-}
-
-.nav-btn:hover {
-  background: #1b5e20;
-  color:#fff !important;
-}
-
-/* Text */
 .nav-text {
+  display: inline;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 16px;
+  color: #fff;
   text-transform: uppercase;
 }
+.nav-text:hover{
+  color: #00fc40;
+}
+/* Contact Button */
+        /* reduced height */
+.nav-btn {
+  height: 36px;
+  width: 110px;
+  font-size: 13px;
+  border-radius: 5px;
+  background: linear-gradient(107.08deg, #9cff93 0%, #00fc40 100%);
+  color: #0e0e0e;
+  text-decoration: none;
+  transition: 0.3s ease;
+  padding: 10px;
+}
+.contact-text{
+  font-size: 15px;
+}
+.nav-btn:hover {
+  background: #1b5e20;
+}
 
-/* Mobile */
+
+.contact-text:hover{
+  color: #0e0e0e;
+}
+
+/* Mobile View */
 @media screen and (max-width: 768px) {
   .navbar {
-    height: 70px;
-    padding: 10px 5%;
+    padding: 12px 5%;
+    min-height: 70px;
   }
 
   .logo-icon {
-    width: 160px;
-    max-height: 55px;
+    width: 150px;
+    max-height: 60px;
   }
 
-  .nav-links {
-    gap: 18px;
-  }
-
+  /* Hide Text */
   .nav-text {
     display: none;
   }
 
-  .contact-text {
-    display: inline;
+  /* Show Icons */
+  .nav-icon {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+  }
+  .nav-icon:hover{
+    color: #00fc40;
+  }
+  .nav-links {
+    gap: 20px;
   }
 
-  .nav-icon {
-    font-size: 22px;
+  /* Hide Contact Text */
+  .contact-text {
+    display: none;
   }
 
   .nav-btn {
-    padding: 8px 12px;
-    font-size: 14px;
+    padding: 6px 10px;
+    min-width: 36px;
+    min-height: 36px;
+    height: 36px;
   }
 }
