@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        GT<span>APEX </span>MARKETING
+        <img src="https://res.cloudinary.com/doyaebals/image/upload/v1777117610/82023ee6966f15c767c25263f523a655a0945cfe_bxiaan.png" alt= "logo" className='logo-icon'/>
       </div>
 
       <ul className="nav-links">

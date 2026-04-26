@@ -20,7 +20,7 @@ const Carousel = () => {
       <Slider {...settings}>
         <div className="slide-item">
           <img
-            src="https://res.cloudinary.com/doyaebals/image/upload/v1777033797/GTAPEX_FLYER_j4pvja.png"
+            src="https://res.cloudinary.com/doyaebals/image/upload/v1777118809/GTAPEX_FLYER_jwtt8p.svg"
             alt="slide1"
           
           />
@@ -28,7 +28,7 @@ const Carousel = () => {
 
         <div className="slide-item">
           <img
-            src="https://res.cloudinary.com/doyaebals/image/upload/v1777033797/GTAPEX_FLYER_j4pvja.png"
+            src="https://res.cloudinary.com/doyaebals/image/upload/v1777118752/GTAPEX_FLYER2_qch8eq.svg"
             alt="slide2"
           />
         </div>
