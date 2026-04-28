@@ -297,7 +297,7 @@ body {
 /* Tablet */
 @media screen and (max-width: 768px) {
   .bg-con {
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
   }
@@ -306,7 +306,7 @@ body {
 /* Mobile */
 @media screen and (max-width: 480px) {
   .bg-con {
-    height: 50vh;
+    height: 60vh;
     background-size: contain; /* better fit for mobile */
     background-position: center;
     background-repeat: no-repeat;

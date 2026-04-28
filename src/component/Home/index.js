@@ -14,8 +14,7 @@ const Home = () => {
     <div className="home-container">
       {/* Navbar */}
       <Header />
-      <div className="bg-con"> 
-
+      <div className="bg-con">
       </div>
       {/* Full Width Carousel */}
       <StatsCards />
