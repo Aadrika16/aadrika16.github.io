@@ -21,51 +21,51 @@ const Header = () => {
           className="logo-icon"
         />
       </div>
+        <ul className="nav-links">
+          <li>
+            <Link
+              to="/"
+              className={location.pathname === '/' ? 'active-link' : ''}
+            >
+              <FaHome className="nav-icon" />
+              <span className="nav-text">Home</span>
+            </Link>
+          </li>
 
-      <ul className="nav-links">
-        <li>
-          <Link
-            to="/"
-            className={location.pathname === '/' ? 'active-link' : ''}
-          >
-            <FaHome className="nav-icon" />
-            <span className="nav-text">Home</span>
-          </Link>
-        </li>
+          <li>
+            <Link
+              to="/services"
+              className={location.pathname === '/services' ? 'active-link' : ''}
+            >
+              <FaServicestack className="nav-icon" />
+              <span className="nav-text">Services</span>
+            </Link>
+          </li>
 
-        <li>
-          <Link
-            to="/services"
-            className={location.pathname === '/services' ? 'active-link' : ''}
-          >
-            <FaServicestack className="nav-icon" />
-            <span className="nav-text">Services</span>
-          </Link>
-        </li>
+          <li>
+            <Link
+              to="/about"
+              className={location.pathname === '/about' ? 'active-link' : ''}
+            >
+              <FaInfoCircle className="nav-icon" />
+              <span className="nav-text">About</span>
+            </Link>
+          </li>
 
-        <li>
-          <Link
-            to="/about"
-            className={location.pathname === '/about' ? 'active-link' : ''}
-          >
-            <FaInfoCircle className="nav-icon" />
-            <span className="nav-text">About</span>
+          <li>
+            <Link
+              to="/clients"
+              className={location.pathname === '/clients' ? 'active-link' : ''}
+            >
+              <FaUsers className="nav-icon" />
+              <span className="nav-text">Clients</span>
+            </Link>
+          </li>
+        </ul>
+          <Link to="/contact" className="nav-btn">
+              <span className='contact-text'>BOOK NOW</span> 
           </Link>
-        </li>
-
-        <li>
-          <Link
-            to="/clients"
-            className={location.pathname === '/clients' ? 'active-link' : ''}
-          >
-            <FaUsers className="nav-icon" />
-            <span className="nav-text">Clients</span>
-          </Link>
-        </li>
-      </ul>
-        <Link to="/contact" className="nav-btn">
-            <span className='contact-text'>BOOK NOW</span> 
-        </Link>
+        
     </nav>
   )
 }

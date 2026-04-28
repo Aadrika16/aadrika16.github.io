@@ -16,6 +16,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 0;
 }
 .home-container {
   width: 100%;
@@ -306,7 +307,7 @@ body {
 /* Mobile */
 @media screen and (max-width: 480px) {
   .bg-con {
-    height: 60vh;
+    height: 70vh;
     background-size: contain; /* better fit for mobile */
     background-position: center;
     background-repeat: no-repeat;

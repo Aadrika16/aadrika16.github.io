@@ -5,7 +5,18 @@
   padding: 80px 6%;
   font-family: "Poppins", sans-serif;
 }
+/* Remove default spacing */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
+/* Header fixed height compensation */
+.hero-section {
+  margin-top: 0;
+  padding-top: 90px; /* equal to navbar height */
+}
 /* Container */
 .hero-container {
   display: flex;

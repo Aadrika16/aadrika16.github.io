@@ -7,28 +7,28 @@ const steps = [
     id: '01',
     title: 'AUDIT',
     description:
-      'Full-spectrum diagnostic of your current digital footprint. We find the drag factors slowing your growth.',
+      'We analyze your entire digital presence in detail.Identify strengths, weaknesses, and growth gaps.Understand your audience and competition.Build clarity on current performance.Set a strong foundation for strategy',
     icon: <FaClipboardList />,
   },
   {
     id: '02',
     title: 'BLUEPRINT',
     description:
-      'Architectural design of your offensive marketing strategy. No generic plans, only surgical maneuvers.',
+      'We craft a data-driven marketing strategy.Tailored to your brand and objectives.Focused on high-impact channels and actions.Clear roadmap with measurable goals.Designed for maximum efficiency.',
     icon: <FaDraftingCompass />,
   },
   {
     id: '03',
     title: 'LAUNCH',
     description:
-      'Aggressive deployment across high-yield channels. We ignite the engine and monitor every telemetry point.',
+      'We execute campaigns with precision.Activate ads, content, and targeting strategies.Monitor performance in real time.Optimize continuously for best results.Ensuring strong initial momentum.',
     icon: <FaRocket />,
   },
   {
     id: '04',
     title: 'SCALE',
     description:
-      'Continuous optimization for infinite expansion. We push the limits while maintaining structural integrity.',
+      'We amplify successful campaigns.Increase reach and conversion efficiency.Continuously refine strategies.Drive consistent growth and ROI.Turn momentum into long-term success',
     icon: <FaChartLine />,
   },
 ]
