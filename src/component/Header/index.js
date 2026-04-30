@@ -4,7 +4,7 @@ import {
   FaHome,
   FaServicestack,
   FaInfoCircle,
-  FaUsers,
+  
   FaBars,
   FaTimes
 } from 'react-icons/fa'
@@ -58,10 +58,10 @@ const Header = () => {
               to="/about"
               className={location.pathname === '/about' ? 'active' : ''}
             >
-              <FaInfoCircle /> About
+              <FaInfoCircle /> About Us
             </Link>
           </li>
-
+          {/*
           <li>
             <Link
               to="/clients"
@@ -70,7 +70,7 @@ const Header = () => {
               <FaUsers /> Clients
             </Link>
           </li>
-
+ */}
           <li>
             <button className="btn" onClick={toggleRegister}>
               REGISTER NOW
