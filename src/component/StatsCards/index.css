@@ -57,7 +57,8 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
   .stats-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 15px;
   }
 
   .stat-card {
@@ -66,5 +67,8 @@
 
   .stat-content h2 {
     font-size: 32px;
+  }
+  .stat-content p {
+    font-size: 10px;
   }
 }
