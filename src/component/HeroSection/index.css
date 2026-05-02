@@ -221,7 +221,7 @@
 
 @media screen and (max-width: 480px) {
   .hero-container {
-    padding: 85px 20px 50px;
+    padding: 0 20px;
   }
 
   .hero-title {
