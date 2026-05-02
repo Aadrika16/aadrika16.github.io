@@ -182,7 +182,7 @@
   .hero-container {
     justify-content: center;
     text-align: center;
-    padding: 100px 25px 60px;
+    padding: 0 25px;
   }
 
   .hero-content {
