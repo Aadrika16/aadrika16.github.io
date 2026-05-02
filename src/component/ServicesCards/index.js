@@ -21,7 +21,7 @@ const services = [
   "SEO (On-page & Off-page)",
   "Brand Identity & Strategy",
   "Event & Occasion Marketing",
-  "Website Content Management"
+  "Website Design & Management"
 ];
 
 const ServicesCards = () => {

@@ -1,10 +1,11 @@
+import NotFound from "../NotFoundPage"
 import Header from "../Header"
 
 const About =()=>{
     return (
         <div>
             <Header />
-            <h1>Hi</h1>
+            <NotFound />
         </div>
     )
 }
