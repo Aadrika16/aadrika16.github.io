@@ -1,4 +1,4 @@
-
+import { FaArrowRight } from "react-icons/fa";
 import "./index.css";
 
 const plans = [
@@ -85,7 +85,8 @@ const Pricing = () => {
 
             <ul>
               {plan.features.map((f, index) => (
-                <li key={index} className="right-icon">✔ {f}</li>
+                <li key={index} > <FaArrowRight className="right-icon" />  {f}</li>
+                
               ))}
             </ul>
 

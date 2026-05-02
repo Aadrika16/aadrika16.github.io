@@ -350,7 +350,9 @@ body {
   background: #67ff8e;
   color: black;
 }
-
+.green-card h3{
+  color: #06611c; 
+}
 
 .green-card small {
   color: #10351d;

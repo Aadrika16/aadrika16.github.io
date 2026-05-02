@@ -15,6 +15,9 @@
 }
 .right-icon{
   color : #00ff88;
+  height: 20px;
+  margin-right: 3px;
+  padding-top: 10px;
 }
 .sub-text {
   color: #aaa;
