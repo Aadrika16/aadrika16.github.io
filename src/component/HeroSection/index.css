@@ -180,8 +180,9 @@
 
 @media screen and (max-width: 768px) {
   .hero-container {
-    justify-content: top;
+    justify-content: flex-start;
     text-align: center;
+    overflow: scroll;
     padding: 0 25px;
   }
 
@@ -221,6 +222,8 @@
 
 @media screen and (max-width: 480px) {
   .hero-container {
+    justify-content: flex-start;
+    overflow: scroll;
     padding: 0 20px;
   }
 
