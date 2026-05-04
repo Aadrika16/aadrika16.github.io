@@ -22,22 +22,21 @@ const LandingPage = () => {
           </h1>
 
           <p className="description">
-            We don’t just execute; we architect. Every pixel and every campaign
-            is mapped to a grander vision, ensuring your brand isn't just
-            present, but dominant in its space.
+           We don’t just run campaigns — we plan, design, and execute strategies that actually grow your business.
+           Every step we take is focused on helping your brand stand out, reach the right audience, and achieve measurable success.
           </p>
           <div className="features">
             <div className="feature">
               <div>
                 <h4>MARKET INSIGHT</h4>
-                <p>Real-time telemetry of your market landscape.</p>
+                <p>We continuously track your market and audience behavior, so your brand stays ahead of trends and competitors.</p>
               </div>
             </div>
 
             <div className="feature">
               <div>
                 <h4>GROWTH ENGINE</h4>
-                <p>Proprietary logic designed for aggressive expansion.</p>
+                <p>We use proven strategies and smart systems to help your business scale faster and more efficiently.</p>
               </div>
             </div>
           </div>
