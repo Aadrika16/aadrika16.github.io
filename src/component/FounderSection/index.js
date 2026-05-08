@@ -29,7 +29,7 @@ const founders = [
 const FounderSection = () => {
   return (
     <div className="founder-container">
-      <h1 className="founder-heading">OUR FOUNDERS</h1>
+      <h2 className="founder-heading">OUR FOUNDERS</h2>
 
       <div className="founder-grid">
         {founders.map(each => (

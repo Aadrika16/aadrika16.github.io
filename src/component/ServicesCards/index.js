@@ -35,10 +35,10 @@ const ServicesCards = () => {
       <div className="services-header">
         <div>
           <p className="tag">— TECHNICAL CAPABILITIES</p>
-          <h1>
+          <h2>
             OUR FULL SUITE <br />
             <span>OF SERVICES</span>
-          </h1>
+          </h2>
         </div>
 
         <p className="desc">

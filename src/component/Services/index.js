@@ -11,10 +11,10 @@ const Services = () => {
         <div className="hero-left">
           <span className="status-badge">SYSTEM STATUS : OPTIMAL</span>
 
-          <h1>
+          <h2>
             ZERO DRAG<br />
             <span>MAXIMUM ROI</span>
-          </h1>
+          </h2>
 
           <p>
             Precision-engineered growth modules for the digital economy.
@@ -24,12 +24,12 @@ const Services = () => {
 
           <div className="stats-boxes">
             <div className="stat-card">
-              <h2>360°</h2>
+              <h3>360°</h3>
               <span>ENGINEERING VERTICALS</span>
             </div>
 
             <div className="stat-card">
-              <h2>0 <span className="ms-span">ms</span></h2>
+              <h3>0 <span className="ms-span">ms</span></h3>
               <span>DEPLOYMENT LATENCY</span>
             </div>
           </div>

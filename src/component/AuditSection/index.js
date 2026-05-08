@@ -5,7 +5,7 @@ const AuditSection = () => {
   return (
     <div className="audit-container">
       <div className="audit-content">
-        <h1>INITIALIZE PERFORMANCE GROWTH</h1>
+        <h2>INITIALIZE PERFORMANCE GROWTH</h2>
 
         <p>
           Is your current infrastructure creating drag? Connect with our

@@ -1,3 +1,4 @@
+import PopupModal from "../PopUpModel"
 import Header from "../Header"
 import StatsCards from "../StatsCards"
 import HeroSection from "../HeroSection"
@@ -13,7 +14,9 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* Navbar */}
+      <PopupModal />
       <Header />
+      
 
       {/* Hero Section with Background */}
       <section className="hero-wrapper">

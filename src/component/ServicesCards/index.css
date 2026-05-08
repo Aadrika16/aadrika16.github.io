@@ -23,12 +23,12 @@
   margin-bottom: 10px;
 }
 
-.services-header h1 {
+.services-header h2 {
   font-size: 42px;
   line-height: 1.2;
 }
 
-.services-header h1 span {
+.services-header h2 span {
   color: #00ff88;
 }
 

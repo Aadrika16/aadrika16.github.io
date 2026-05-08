@@ -15,11 +15,11 @@ const LandingPage = () => {
         <div className="landing-content">
           <p className="tag">— STRATEGY & VISION</p>
 
-          <h1>
+          <h2>
             YOUR BRAND, <br />
             OUR STRATEGY, <br />
             <span>REAL RESULTS.</span>
-          </h1>
+          </h2>
 
           <p className="description">
            We don’t just run campaigns — we plan, design, and execute strategies that actually grow your business.

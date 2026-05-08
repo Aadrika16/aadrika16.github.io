@@ -36,9 +36,9 @@ const Clients = () => {
         <div className="hero-left">
           <p className="hero-tag">Client Portfolio // 2024</p>
 
-          <h1 className="hero-title">
+          <h2 className="hero-title">
             DOMINATING <span>THE SPACE.</span>
-          </h1>
+          </h2>
 
           <p className="hero-description">
             We don't just optimize; we re-engineer the entire trajectory.

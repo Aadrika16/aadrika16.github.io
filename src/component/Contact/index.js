@@ -13,7 +13,7 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="register-card">
-          <h1 className="register-title">Contact Us</h1>
+          <h2 className="register-title">Contact Us</h2>
             <div className="back-btn" onClick={() => history.push("/")}>
                 <FaArrowLeft />
                 <span>Back</span>
